@@ -210,6 +210,9 @@ background-color: #404BBF;
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
+    
 }
 .headin {
     border-bottom: 1px solid #e7e9fc;
@@ -271,7 +274,16 @@ img {
     padding: 120px 0;
 }
 .visually-hidden {
-    border: 0px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .secondary-list {
