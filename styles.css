@@ -276,17 +276,14 @@ img {
     gap: 24px;
 } 
 .likethis {
-    width:calc((100%-72px)/4);
+    flex-basis:calc((100%-72px)/4);
 }
 .list-header {
-    margin-bottom: 8;
+    margin-bottom: 8px;
 }
-.list-p {
-    justify-content: center;
-}
+
 .third-section {
     padding-bottom: 120px;
-
 }
 .list-wawd-h {
     margin-bottom: 72px;
