@@ -207,6 +207,7 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
 img {
     display: block;
 }
@@ -218,7 +219,7 @@ img {
 .first {
     display: flex;
     width: 1158px;
-    margin: 0;
+    margin: 0px;
     padding: 0 15px;
 }
 .nav {
@@ -233,20 +234,20 @@ img {
     margin-right: 76px;
 }
 .texthead {
-    padding: 24px 0;
-
+    padding: 24px 0px;
+  
 }
 .contacts {
     display: flex;
-    margin-right: 60px;
+    
 }
-.adr .comtainer {
+.adr {
     display: flex;
 }
 .mailtel {
     display: flex;
     gap: 40px;
-    align-self: flex-end;
+    margin-left: 240px;
 }
 .main-section {
     padding-top: 188px;
@@ -268,8 +269,8 @@ img {
 }
 .secondary section {
     padding: 120px 0;
-
 }
+
 .secondary-list {
     display: flex;
     gap: 24px;
@@ -287,12 +288,15 @@ img {
   
 }
 .third-list {
+    margin-left: auto;
+    margin-right: auto;
    display: flex;
    gap: 24px;
    width: calc((100%-48px)/3);
+   justify-content: center;
 }
 .list-our-team {
-    padding: 120px, 0;
+    padding: 120px 0;
 }
 .list-wawd-h {
     margin-bottom: 72px;
@@ -300,14 +304,18 @@ img {
 .fourth-section {
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 .testing {
+    gap: 24px;
+    margin-left: 56px;
   width:calc((100%-72px)/4);
-  border-radius: 0px, 0px, 4px, 4px;
+  border-radius: 0px 0px 4px 4px;
+ 
 
 }
 .people-names {
-    padding: 32px, 0;
+    padding: 32px 0;
 }
 .list-header {
     text-align: center;
@@ -318,7 +326,7 @@ img {
     text-align: center;
 }
 .section-footer {
-    padding: 100px, 0;
+    padding: 100px 0;
 }
 .link-logo-footer{
     display: inline-block;
@@ -327,4 +335,42 @@ img {
 }
 .section-footer-text {
     max-width: 264px;
+}
+.project {
+    padding: 96px 0 120px 0;
+}
+.project-button {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.knopka {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+.knopka:hover {
+    border: 1px solid transparent;
+}
+.knopka:focus{
+    border: 1px solid transparent;
+}
+.fotki {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    justify-content: center;
+}
+.our-services {
+    width: calc((100% - 48px)/3);   
+}
+.services-type {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.list-team-names {
+    margin-bottom: 8px;
 }
