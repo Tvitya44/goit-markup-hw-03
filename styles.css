@@ -208,12 +208,18 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
-
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
 
 .container {
     width: 1158;
     padding: 0 15px;
-    margin: 0 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 img {
     display: block;
@@ -227,7 +233,6 @@ img {
 
 }
 .first {
-    width: 1158px;
     display: flex;
     margin: 0px auto;
     padding: 0 15px;
@@ -299,13 +304,13 @@ img {
     
 } 
 .likethis {
-    ex-basis: ((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
    
 }
 .list-header {
     margin-bottom: 8px;
     justify-content: center;
-    width: calc ((100% - 72px) / 3);
+    flex-basis: calc((100% - 72px) / 3);
     gap: 40px;
 }
 
