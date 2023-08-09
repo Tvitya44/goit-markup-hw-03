@@ -121,6 +121,7 @@ background-color: #404BBF;
 .list-section-2{
     list-style: none;
 }
+
 .list-header {
     font-weight: 500;
     font-size: 20px;
@@ -208,11 +209,17 @@ background-color: #404BBF;
     color: #F4F4FD;
 }
 
+
+.container {
+    width: 1158;
+    padding: 0 15px;
+    margin: 0 0 0 0;
+}
 img {
     display: block;
     max-width: 100%;
     height: auto;
-    
+
 }
 .headin {
     border-bottom: 1px solid #e7e9fc;
@@ -220,8 +227,8 @@ img {
 
 }
 .first {
-    display: flex;
     width: 1158px;
+    display: flex;
     margin: 0px auto;
     padding: 0 15px;
 }
@@ -242,6 +249,7 @@ img {
 }
 .contacts {
     display: flex;
+    justify-content: flex-end;
     
 }
 .adr {
@@ -250,7 +258,6 @@ img {
 .mailtel {
     display: flex;
     gap: 40px;
-    margin-left: 240px;
 }
 .main-section {
     padding-top: 188px;
@@ -272,6 +279,7 @@ img {
 }
 .secondary {
     padding: 120px 0;
+    margin: 0 0 0 0;
 }
 .visually-hidden {
     position: absolute;
@@ -288,14 +296,19 @@ img {
 
 .secondary-list {
     display: flex;
-    gap: 24px;
+    
 } 
 .likethis {
-    flex-basis: calc((100% - 72px * 3) / 4);
+    ex-basis: ((100% - 72px) / 4);
+   
 }
 .list-header {
     margin-bottom: 8px;
+    justify-content: center;
+    width: calc ((100% - 72px) / 3);
+    gap: 40px;
 }
+
 
 .third-section {
     padding-bottom: 120px;
