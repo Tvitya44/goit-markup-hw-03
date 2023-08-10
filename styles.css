@@ -233,6 +233,7 @@ img {
 
 }
 .first {
+    width: 1158px;
     display: flex;
     margin: 0px auto;
     padding: 0 15px;
@@ -301,16 +302,19 @@ img {
 
 .secondary-list {
     display: flex;
+    justify-content: space-between;
     
 } 
 .likethis {
+    gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
    
 }
 .list-header {
+    gap: 24;
     margin-bottom: 8px;
     justify-content: center;
-    flex-basis: calc((100% - 72px) / 3);
+    flex-basis: calc((100% - 72px) / 4);
     gap: 40px;
 }
 
@@ -323,6 +327,7 @@ img {
   
 }
 .third-list {
+    flex-basis: calc((100% - 48px) / 3);
     margin-left: auto;
     margin-right: auto;
    display: flex;
@@ -404,4 +409,7 @@ img {
 }
 .list-team-names {
     margin-bottom: 8px;
+}
+.fotki {
+    flex-basis: calc((100% - 48px) / 3);
 }
