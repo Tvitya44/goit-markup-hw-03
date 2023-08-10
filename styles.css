@@ -284,8 +284,13 @@ img {
     border-radius: 4px;
 }
 .secondary {
+    width: 1158px;
+    display: flex;
+    margin: 0px auto;
+    padding: 0 15px;
+    width: 1158px;
     padding: 120px 0;
-    margin: 0 0 0 0;
+  
 }
 .visually-hidden {
     position: absolute;
@@ -305,9 +310,12 @@ img {
     justify-content: space-between;
     
 } 
+.sec-item{
+    flex-basis: calc((100% - 72px) / 4);
+}
 .likethis {
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 48px) / 3);
    
 }
 .list-header {
@@ -320,14 +328,17 @@ img {
 
 
 .third-section {
-    padding-bottom: 120px;
+    display: flex;
+    margin: 0px auto;
+    padding: 0 15px;
+    width: 1158px;
+    padding: 120px 0;
 }
+
 .list-wawd-h {
     margin-bottom: 72px;
-  
 }
 .third-list {
-    flex-basis: calc((100% - 48px) / 3);
     margin-left: auto;
     margin-right: auto;
    display: flex;
@@ -335,6 +346,9 @@ img {
    justify-content: center;
 }
 .list-our-team {
+    display: flex;
+    margin: 0px auto;
+    padding: 0 15px;
     padding: 120px 0;
 }
 .list-wawd-h {
@@ -342,19 +356,23 @@ img {
 }
 .fourth-section {
     display: flex;
-    gap: 24px;
-    justify-content: center;
+    margin: 0px auto;
+    padding: 0 15px;
+    width: 1158px;
+   
 }
 .testing {
+    padding: 0 15px;
+    justify-content: center;
     gap: 24px;
-    margin-left: 56px;
-  flex-basis: calc((100% - 72px * 3) / 4);
-  border-radius: 0px 0px 4px 4px;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
  
 
 }
 .people-names {
     padding: 32px 0;
+    gap: 24px;
 }
 
 .list-p {
